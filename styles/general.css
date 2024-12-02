@@ -87,6 +87,7 @@ body{
     border-radius: 30px;
     overflow: hidden;
     width: 20vw;
+    background-color: white;
 }
 
 .offerts-cards-footer{
@@ -146,5 +147,8 @@ body{
 .references-img-cover{
     position: relative;
 
+}
+.front{
+    height: 50vh;
 }
 

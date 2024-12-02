@@ -3,16 +3,24 @@
     flex-wrap: wrap;
     gap: 33vw;
     align-items: center;
-    position: fixed;
-    z-index: 2;
+    /*position: fixed;*/
     background-color: white;
     width: 100%;
-    border-bottom: #566f8e solid 2px;
+    position: relative;
+    z-index: -2;
 }
+.header-img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+/*
 .spacer{
     height: 10vh;
 
 }
+    */
 .logo{
     height: 10vh;
 }
