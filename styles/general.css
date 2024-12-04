@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 img{
     display: block;
     width: 100%;
@@ -18,13 +21,17 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2em;
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center top; 
 }
 .services-h{
     color: white;
 }
 .services{
     background-color: #566f8e;
-    width: 82vw;
+    width: 82%;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -69,6 +76,10 @@ body{
     grid-auto-rows: auto;
     margin-top: 1em;
 
+
+}
+.offerts{
+    width: 100%;
 }
 .offerts-cards{
     padding-left: 15vw;
@@ -150,5 +161,15 @@ body{
 }
 .front{
     height: 50vh;
+    display: flex;
+    justify-content: space-between;
 }
-
+.front-img{
+    width: 30vw;
+    z-index: 2;
+}
+h1{
+    font-size: 3em;
+    display: block;
+    padding: 3em ;
+}
